@@ -80,6 +80,10 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "USER/november.html";
     } else if (username === "Armadania_Anggun" && password === "12December") {
       window.location.href = "USER/december.html";
+    } else if (username === "Armadania_Anggun" && password === "CieeUltahDia") {
+      window.location.href = "BIRTHDAY/index.html";
+    } else if (username === "Armadania_Anggun" && password === "AkuUdahSiap") {
+      window.location.href = "UTAMA/index.html";
     } else {
       alert("Username atau password salah.");
     }
